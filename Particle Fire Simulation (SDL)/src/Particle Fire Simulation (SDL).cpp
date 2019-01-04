@@ -8,44 +8,60 @@
 
 #include <iostream>
 #include <SDL.h>
+#include <math.h>
 #include <cstring>
+#include <stdlib.h>
+#include <time.h>
 #include "Screen.h"
+#include "Swarm.h"
+#include "Particle.h"
 using namespace std;
 using namespace fire;
 
 int main(int argc, char* argv[]) {
+
+	srand(time(NULL));
 
 	Screen screen;
 	if (screen.init() == false) {
 		cout << "Error initializing SDL." << endl;
 	}
 
+	Swarm swarm;
+
 	while (true) {
 		// Update particles
 		// Draw particles
-		for (int y = 0; y < Screen::SCREEN_HEIGHT; y++) {
-			for (int x = 0; x < Screen::SCREEN_WIDTH; x++) {
-				screen.setPixel(x, y, 255, 255, 255);
-			}
+		int elapsed = SDL_GetTicks();
+
+		swarm.update(elapsed);
+
+		unsigned char green = (1 + sin(elapsed * 0.0001)) * 128;
+		unsigned char red = (1 + sin(elapsed * 0.0002)) * 128;
+		unsigned char blue = (1 + sin(elapsed * 0.0003)) * 128;
+
+		const Particle * const pParticles = swarm.getParticles();
+
+		for (int i = 0; i < Swarm::NPARTICLES; i++) {
+			Particle particle = pParticles[i];
+
+			int x = (particle.m_x + 1) * Screen::SCREEN_WIDTH / 2;
+			int y = particle.m_y * Screen::SCREEN_WIDTH / 2 + Screen::SCREEN_HEIGHT/2;
+
+
+			screen.setPixel(x, y, red, green, blue);
+		}
+		screen.boxBlur();
+
+		screen.update();
+
+		if (!screen.processEvents()) {
+			break;
 		}
 
-		while (true) {
-			// Update particles
-			// Draw particles
-			for (int y = 200; y<400; y++) {
-					for (int x = 300; x < 500; x++) {
-						screen.setPixel(x, y, 255, 64, 128);
-					}
-				}
-			}
-			screen.update();
-
-			if (!screen.processEvents()) {
-				break;
-			}
-
-		}
-		screen.close();
-
-		return 0;
 	}
+
+	screen.close();
+
+	return 0;
+}
