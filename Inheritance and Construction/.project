@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Inheritance and Construction</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Particle Fire Simulation (SDL)</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.cproject</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.cproject</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.project</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.project</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.settings</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Debug</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Release</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/src</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/FETCH_HEAD</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/FETCH_HEAD</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/HEAD</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/HEAD</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/config</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/config</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/description</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/description</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/info</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/objects</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/refs</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.settings/language.settings.xml</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.settings/language.settings.xml</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.settings/org.eclipse.cdt.managedbuilder.core.prefs</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.settings/org.eclipse.cdt.managedbuilder.core.prefs</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Debug/Particle Fire Simulation (SDL).exe</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/Debug/Particle%20Fire%20Simulation%20(SDL).exe</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Debug/SDL2.dll</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/Debug/SDL2.dll</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Debug/src</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Release/Particle Fire Simulation (SDL).exe</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/Release/Particle%20Fire%20Simulation%20(SDL).exe</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Release/SDL2.dll</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/Release/SDL2.dll</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Release/src</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/src/Particle Fire Simulation (SDL).cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/src/Particle%20Fire%20Simulation%20(SDL).cpp</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/src/Screen.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/src/Screen.cpp</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/src/Screen.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/src/Screen.h</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/applypatch-msg.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/applypatch-msg.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/commit-msg.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/commit-msg.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/fsmonitor-watchman.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/fsmonitor-watchman.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/post-update.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/post-update.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/pre-applypatch.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/pre-applypatch.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/pre-commit.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/pre-commit.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/pre-push.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/pre-push.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/pre-rebase.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/pre-rebase.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/pre-receive.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/pre-receive.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/prepare-commit-msg.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/prepare-commit-msg.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/hooks/update.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/hooks/update.sample</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/info/exclude</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/.git/info/exclude</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/objects/info</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/objects/pack</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/refs/heads</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/.git/refs/tags</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Debug/src/Particle Fire Simulation (SDL).o</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/Debug/src/Particle%20Fire%20Simulation%20(SDL).o</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Debug/src/Screen.o</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/Debug/src/Screen.o</locationURI>
+		</link>
+		<link>
+			<name>Particle Fire Simulation (SDL)/Release/src/Particle Fire Simulation (SDL).o</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Particle%20Fire%20Simulation%20(SDL)/Release/src/Particle%20Fire%20Simulation%20(SDL).o</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

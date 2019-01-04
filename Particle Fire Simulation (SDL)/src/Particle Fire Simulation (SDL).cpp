@@ -1,9 +1,8 @@
 //============================================================================
-// Name        : SDLTest.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Name        : Particle Fire Simulation
+// Author      : Yousif Kzeer
+// Version     : 1.0
+// Description : C++ Particle Fire Simulation using SDL
 //============================================================================
 
 #include <iostream>
@@ -37,7 +36,7 @@ int main(int argc, char* argv[]) {
 		swarm.update(elapsed);
 
 		unsigned char green = (1 + sin(elapsed * 0.0001)) * 128;
-		unsigned char red = (1 + sin(elapsed * 0.0002)) * 128;
+		unsigned char red = (1 + sin(elapsed * 0.0004)) * 128;
 		unsigned char blue = (1 + sin(elapsed * 0.0003)) * 128;
 
 		const Particle * const pParticles = swarm.getParticles();
