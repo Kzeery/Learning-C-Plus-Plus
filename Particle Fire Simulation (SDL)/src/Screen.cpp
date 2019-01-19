@@ -122,6 +122,7 @@ void Screen::boxBlur() {
 		}
 	}
 }
+
 void Screen::close() {
 	delete[] m_buffer1;
 	delete[] m_buffer2;

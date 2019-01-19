@@ -24,6 +24,7 @@ public:
 	void close();
 	void update();
 	void boxBlur();
+
 };
 
 }
