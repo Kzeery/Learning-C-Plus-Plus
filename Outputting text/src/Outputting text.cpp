@@ -14,7 +14,7 @@ int main() {
 
 		do {
 
-			cout << "What is " << num1 << " * " << num2 << " ? > " << flush;
+			cout << "What is  " << num1 << " * " << num2 << " ? > " << flush;
 
 			cin >> input;
 

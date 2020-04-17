@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Particle Fire Simulation
 // Author      : Yousif Kzeer
-// Version     : 1.0
+// Version     : 1.1
 // Description : C++ Particle Fire Simulation using SDL
 //============================================================================
 
