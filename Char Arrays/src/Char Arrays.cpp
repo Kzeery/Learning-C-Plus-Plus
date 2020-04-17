@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-	char text[] = "hello";
+	char text[] = "hello ";
 
 	for(unsigned int i = 0; i<(sizeof(text) - 1); i++) {
 		cout << i << ": " << text[i] << " " << endl;

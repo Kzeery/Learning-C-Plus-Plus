@@ -6,7 +6,7 @@ class Candy {
 private:
 	string name;
 public:
-	Candy() {/*cout << "Candy created!" << endl; */};
+	Candy() {/*cout << "Candy created!" << endl;  */};
 	Candy(const Candy& other): name(other.name) { cout << "Copy constructor initiated!" << endl; };
 	~Candy() { /*cout << "Candy destroyed! :(" << endl; */ };
 	void setName(string name) {this->name = name; };

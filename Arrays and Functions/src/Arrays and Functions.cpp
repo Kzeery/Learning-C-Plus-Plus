@@ -1,7 +1,7 @@
 
 #include <iostream>
 using namespace std;
-// Could declare variables here string numbers[] = {"one", "two", "three"};
+// Could declare variables here string numbers[] = {"one", "two", "three"}; 
 
 void show1(const int nElements,string texts[]) {
 	// cout << sizeof(texts) << endl;

@@ -11,7 +11,7 @@ int main() {
 
 	cout << hex << (int)red << endl;
 
-	// or do the following
+	// or do the following 
 	unsigned char redAgain = color >> 16;
 	cout << hex << (int)redAgain << endl;
 

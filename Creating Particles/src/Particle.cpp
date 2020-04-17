@@ -2,7 +2,7 @@
  * Particle.cpp
  *
  *  Created on: Jan. 3, 2019
- *      Author: Yousif
+ *      Author: Yousif Kzeer
  */
 
 #include "Particle.h"
